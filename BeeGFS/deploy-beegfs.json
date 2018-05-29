@@ -180,7 +180,7 @@
     "computeApiVersion": "2016-04-30-preview",
     "nicName": "[concat(parameters('vmssName'), 'nic')]",
     "ipConfigName": "[concat(parameters('vmssName'), 'ipconfig')]",
-    "location": "[resourceGroup().location]",
+    "location": "westus",
     "PremiumStorageMap": {
       "P10": {
         "size": 128
