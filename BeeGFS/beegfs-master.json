@@ -126,7 +126,7 @@
     "frontEndIPConfigID": "[concat(variables('lbID'),'/frontendIPConfigurations/loadBalancerFrontEnd')]",
     "networkApiVersion": "2016-06-01",
     "insightsApiVersion": "2015-04-01",
-    "location": "[resourceGroup().location]",
+    "location": "westus",
     "installLIS": "bash InstallLIS.sh",
     "templatelink": "[uri(deployment().properties.templateLink.uri, 'Scripts')]",
     "installLIS": "bash InstallLIS.sh",
